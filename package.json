@@ -4,10 +4,7 @@
   "description": "",
   "scripts": {
     "start": "node wordlebot.js",
-    "heroku-postbuild": "npm install && npm run build",
-    "build": "react-scripts build",
     "test": "concurrently \"nodemon server.js\" \"npm run react-start\"",
-    "react-start": "react-scripts start",
     "serve": "npm run build && serve -s build"
   },
   "keywords": [],
