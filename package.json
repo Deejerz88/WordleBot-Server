@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node server.js && node wordlebot.js",
+    "start": "node wordlebot.js",
     "heroku-postbuild": "npm install && npm run build",
     "build": "react-scripts build",
     "test": "concurrently \"nodemon server.js\" \"npm run react-start\"",
